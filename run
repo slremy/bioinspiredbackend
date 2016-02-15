@@ -1,0 +1,4 @@
+for i in {8080..8109}
+do
+    PORT=$i python websingleton.py &
+done
